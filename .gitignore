@@ -1,0 +1,6 @@
+echo # mobilizeTestPlugin >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/mobilizeQA/mobilizeTestPlugin.git
+git push -u origin master
