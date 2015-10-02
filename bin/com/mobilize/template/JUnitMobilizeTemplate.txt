@@ -1,0 +1,18 @@
+
+import com.mobilize.testing.framework.log.TestLogger;
+/**
+*
+* Date:
+* author:
+*
+*/
+@TestLogger(LogTests = true, LogLocation = "C:\\Users\\slin\\Desktop\\log123")
+public class [ClassName]{
+
+	
+	@Test
+	public void [TestName]{
+	//TODO
+	
+	}
+}

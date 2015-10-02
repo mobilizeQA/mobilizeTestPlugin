@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Example
+Bundle-SymbolicName: example;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.mobilize.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.ide,
+ org.eclipse.core.resources
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Export-Package: com.mobilize,
+ com.mobilize.importWizard,
+ com.mobilize.template,
+ com.mobilize.wizards

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<!-- Extension for add file-->
+   <extension
+         point="org.eclipse.ui.importWizards">
+      <category
+            name="Sample File Import"
+            id="example.importWizards.sampleCategory">
+      </category>
+      <wizard
+            name="Import File"
+            icon="icons/sample.gif"
+            category="example.importWizards.sampleCategory"
+            class="example.importWizards.ImportWizard"
+            id="example.importWizards.ImportWizard">
+         <description>
+            Import a file from the local file system into the workspace.
+         </description>
+      </wizard>
+   </extension>
+   <!-- Extension for new file-->
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="Sample Wizards"
+            id="example">
+      </category>
+      <wizard
+            name="Multi-page Editor file"
+            icon="icons/sample.gif"
+            category="example"
+            class="example.wizards.SampleNewWizard"
+            id="example.wizards.SampleNewWizard">
+      </wizard>
+      
+   </extension>
+   
+    <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="JUnit Mobilize Test"
+            id="Mobilize">
+      </category>
+
+      <wizard
+            name="JUnit Mobilize Test"
+            icon="icons/sample.gif"
+            category="TestWizard"
+            class="example.wizards.MobilizeNewWizard"
+            id="example.wizards.MobilizeNewWizardPage">
+            
+      </wizard>
+      
+   </extension>
+
+</plugin>
